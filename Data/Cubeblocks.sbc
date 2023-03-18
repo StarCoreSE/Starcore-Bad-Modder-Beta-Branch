@@ -26,7 +26,7 @@
 				<Component Count="350" Subtype="Motor" />
 				<Component Count="250" Subtype="MetalGrid" />
 				<Component Count="500" Subtype="Construction"/>
-				<Component Count="350" Subtype="SteelPlate"/>
+				<Component Count="250" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="Computer"/>
 			<MountPoints>
