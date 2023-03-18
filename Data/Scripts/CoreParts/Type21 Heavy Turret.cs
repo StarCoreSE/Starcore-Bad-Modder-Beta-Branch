@@ -82,7 +82,7 @@ namespace Scripts {
                     LockOnFocus = false, // If enabled, weapon will only fire at targets that have been HUD selected AND locked onto by pressing Numpad 0.
                     SuppressFire = false, // If enabled, weapon can only be fired manually.
                     OverrideLeads = false, // Disable target leading on fixed weapons, or allow it for turrets.
-                    TargetGridCenter = true, // Does not target blocks, instead it targets grid center.
+                    TargetGridCenter = false, // Does not target blocks, instead it targets grid center.
                 },
                 HardWare = new HardwareDef
                 {
