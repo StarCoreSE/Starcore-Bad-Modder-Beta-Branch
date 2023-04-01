@@ -86,8 +86,8 @@ namespace Scripts {
                 },
                 HardWare = new HardwareDef
                 {
-                    RotateRate = 0.009f, // Max traversal speed of azimuth subpart in radians per tick (0.1 is approximately 360 degrees per second).
-                    ElevateRate = 0.005f, // Max traversal speed of elevation subpart in radians per tick.
+                    RotateRate = 0.007f, // Max traversal speed of azimuth subpart in radians per tick (0.1 is approximately 360 degrees per second).
+                    ElevateRate = 0.0035f, // Max traversal speed of elevation subpart in radians per tick.
                     MinAzimuth = -180,
                     MaxAzimuth = 180,
                     MinElevation = -10,
@@ -125,7 +125,7 @@ namespace Scripts {
                     BarrelsPerShot = 2, // How many muzzles will fire a projectile per fire event.
                     TrajectilesPerBarrel = 1, // Number of projectiles per muzzle per fire event.
                     SkipBarrels = 0, // Number of muzzles to skip after each fire event.
-                    ReloadTime = 1200, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
+                    ReloadTime = 900, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     MagsToLoad = 16, // Number of physical magazines to consume on reload.
                     DelayUntilFire = 45, // How long the weapon waits before shooting after being told to fire. Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     HeatPerShot = 10, // Heat generated per shot.
@@ -145,9 +145,9 @@ namespace Scripts {
                 Audio = new HardPointAudioDef
                 {
                     PreFiringSound = "AvalancheDelayFire", // Audio for warmup effect.
-                    FiringSound = "MyLargeCalibreShot", // Audio for firing.
+                    FiringSound = "MyDualLargeCalibreShot", // Audio for firing.
                     FiringSoundPerShot = false, // Whether to replay the sound for each shot, or just loop over the entire track while firing.
-                    ReloadSound = "MyLargeCalibreReload", // Sound SubtypeID, for when your Weapon is in a reloading state
+                    ReloadSound = "MyDualLargeCalibreReload", // Sound SubtypeID, for when your Weapon is in a reloading state
                     NoAmmoSound = "",
                     HardPointRotationSound = "WepTurretGatlingRotate", // Audio played when turret is moving.
                     BarrelRotationSound = "WepShipGatlingRotation",

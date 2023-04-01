@@ -351,7 +351,7 @@
 		  <PitchVariation>50</PitchVariation>
 		  <Waves>
 			  <Wave Type="D3">
-				  <Start>Audio\Reloads\AvalancheReload.wav</Start>
+				  <Start>Audio\Reloads\CannonReload.wav</Start>
 			  </Wave>
 		  </Waves>
 	  </Sound>
@@ -367,7 +367,44 @@
 		  <PitchVariation>50</PitchVariation>
 		  <Waves>
 			  <Wave Type="D3">
-				  <Start>Audio\Reloads\AvalancheReloadDistant.wav</Start>
+				  <Start>Audio\Reloads\CannonReloadDistant.wav</Start>
+			  </Wave>
+		  </Waves>
+	  </Sound>
+
+	  <Sound>
+		  <Id>
+			  <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+			  <SubtypeId>MyDualLargeCalibreReload</SubtypeId>
+		  </Id>
+		  <Category>SHOT</Category>
+		  <MaxDistance>1800</MaxDistance>
+		  <PreventSynchronization>0</PreventSynchronization>
+		  <DistantSounds>
+			  <DistantSound DistanceCrossfade="100" Distance="700" Sound="MyDualLargeCalibreReloadDist" />
+		  </DistantSounds>
+		  <Volume>1.2</Volume>
+		  <VolumeVariation>0.2</VolumeVariation>
+		  <PitchVariation>50</PitchVariation>
+		  <Waves>
+			  <Wave Type="D3">
+				  <Start>Audio\Reloads\DualAvalancheReload.wav</Start>
+			  </Wave>
+		  </Waves>
+	  </Sound>
+	  <Sound>
+		  <Id>
+			  <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+			  <SubtypeId>MyDualLargeCalibreReloadDist</SubtypeId>
+		  </Id>
+		  <Category>SHOT</Category>
+		  <MaxDistance>1800</MaxDistance>
+		  <Volume>1.2</Volume>
+		  <VolumeVariation>0.2</VolumeVariation>
+		  <PitchVariation>50</PitchVariation>
+		  <Waves>
+			  <Wave Type="D3">
+				  <Start>Audio\Reloads\DualAvalancheReloadDistant.wav</Start>
 			  </Wave>
 		  </Waves>
 	  </Sound>
@@ -603,6 +640,67 @@
 		  <Waves>
 			  <Wave Type="D3">
 				  <Start>Audio\Shot\HeavyCannonBlast6000m.wav</Start>
+			  </Wave>
+		  </Waves>
+	  </Sound>
+	  <!--half quiet Sounds-->
+	  <Sound>
+		  <Id>
+			  <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+			  <SubtypeId>MyDualLargeCalibreShot</SubtypeId>
+		  </Id>
+		  <Category>SHOT</Category>
+		  <MaxDistance>7000</MaxDistance>
+		  <PreventSynchronization>0</PreventSynchronization>
+		  <DistantSounds>
+			  <DistantSound DistanceCrossfade="80" Distance="120" Sound="MyDualLargeCalibreShotDistA" />
+			  <DistantSound DistanceCrossfade="200" Distance="500" Sound="MyDualLargeCalibreShotDistB" />
+			  <DistantSound DistanceCrossfade="200" Distance="1000" Sound="MyLargeCalibreShotDistC" />
+			  <DistantSound DistanceCrossfade="300" Distance="1600" Sound="MyLargeCalibreShotDistD" />
+			  <DistantSound DistanceCrossfade="300" Distance="2400" Sound="MyLargeCalibreShotDistE" />
+			  <DistantSound DistanceCrossfade="300" Distance="3000" Sound="MyLargeCalibreShotDistF" />
+			  <DistantSound DistanceCrossfade="300" Distance="4000" Sound="MyLargeCalibreShotDistG" />
+			  <DistantSound DistanceCrossfade="300" Distance="5000" Sound="MyLargeCalibreShotDistH" />
+			  <DistantSound DistanceCrossfade="300" Distance="6000" Sound="MyLargeCalibreShotDistI" />
+		  </DistantSounds>
+		  <Volume>2</Volume>
+		  <PitchVariation>20</PitchVariation>
+		  <Waves>
+			  <Wave Type="D3">
+				  <Start>Audio\Shot\BattleCannon-FiringSound_WithShellExtraction.wav</Start>
+			  </Wave>
+
+		  </Waves>
+	  </Sound>
+	  <Sound>
+		  <Id>
+			  <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+			  <SubtypeId>MyDualLargeCalibreShotDistA</SubtypeId>
+		  </Id>
+		  <Category>SHOT</Category>
+		  <MaxDistance>7000</MaxDistance>
+
+		  <Volume>2</Volume>
+		  <PitchVariation>30</PitchVariation>
+		  <Waves>
+			  <Wave Type="D3">
+				  <Start>Audio\Shot\HeavyCannonBlast400m.wav</Start>
+			  </Wave>
+		  </Waves>
+	  </Sound>
+	  <Sound>
+		  <Id>
+			  <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+			  <SubtypeId>MyDualLargeCalibreShotDistB</SubtypeId>
+		  </Id>
+		  <Category>SHOT</Category>
+		  <MaxDistance>7000</MaxDistance>
+
+		  <Volume>2</Volume>
+		  <PitchVariation>40</PitchVariation>
+		  <Waves>
+			  <Wave Type="D3">
+				  <Start>Audio\Shot\HeavyCannonBlast800m.wav</Start>
 			  </Wave>
 		  </Waves>
 	  </Sound>
