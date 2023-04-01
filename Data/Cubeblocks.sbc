@@ -195,24 +195,23 @@
 				<SubtypeId>Type21_Artillery</SubtypeId>
 			</Id>
 			<DisplayName>Type 21 "Mars" Heavy Turret</DisplayName>
-			<Description>This is not a Starcore Ready Model.  Waiting on KillerB to finish Type 21 before adding to point sheet.
-			Energy Damage.
+			<Description>
 			6km Range High Velocity HE Shell.
 			</Description>
 			<GuiVisible>true</GuiVisible>
 			<Icon>Textures\GUI\Icons\Mk1Test.png</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="4" y="2" z="4"/>
-			<ModelOffset x="0" y="2.5" z="-1.5"/>
+			<Size x="5" y="7" z="8"/>
+			<ModelOffset x="0" y="-3.75" z="0"/>
 			<Model>Models\Mk2.mwm</Model>
 			<Components>
 
 				<Component Subtype="3x3TurretBaseComponent" Count="1" />
 				<Component Subtype="3x3TurretRotorComponent" Count="1" />
-				<Component Subtype="AvalancheComponent" Count="3" />
+				<Component Subtype="AvalancheComponent" Count="10" />
 				<Component Subtype="Computer" Count="1" />
-				<Component Subtype="AvalancheComponent" Count="7" />
+				<Component Subtype="AvalancheComponent" Count="10" />
 
 
 			<!--<Component Count="15" Subtype="SteelPlate"/>
@@ -226,7 +225,11 @@
 			</Components>
 			<CriticalComponent Index="0" Subtype="Computer"/>
 			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.25" StartY="0.75" EndX="3.75" EndY="3.25" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5.00" EndY="4.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5.00" EndY="4.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="8.00" EndY="4.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="8.00" EndY="4.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="8.00" />
 
 			</MountPoints>
 			<MirroringZ>Y</MirroringZ>
@@ -265,7 +268,7 @@
             <ModelOffset x="0" y="0" z="0"/>
           <Model>Models\TorpReaper_Torp_Main_Scene.mwm</Model>
             <Components>
-				<Component Count="1000" Subtype="SteelPlate"/>
+				<Component Count="2200" Subtype="SteelPlate"/>
 				<Component Count="500" Subtype="Construction"/>
 				<Component Count="50" Subtype="LargeTube" />
 				<Component Count="200" Subtype="MetalGrid" />
@@ -442,7 +445,7 @@
 		
 
 	<!-- Smaller Turrets -->
-		<!-- 3x5's -->
+		<!-- 3x4's -->
 			<!-- Light Coilgun -->
 		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
 			<Id>
@@ -575,24 +578,28 @@
 				<TypeId>ConveyorSorter</TypeId>
 				<SubtypeId>RailgunTurret_Block</SubtypeId>
 			</Id>
-			<DisplayName>Unused Spawner</DisplayName>
+			<DisplayName>Type 17 Kodiak</DisplayName>
 			<Description>RailgunTurret</Description>
-			<GuiVisible>false</GuiVisible>
+			<GuiVisible>true</GuiVisible>
 			<Icon>Textures\GUI\Icons\RailgunTurret_MainScene.png</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="5" y="3" z="7"/>
-			<ModelOffset x="0" y="0" z="0"/>
+			<ModelOffset x="0" y="1.2" z="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="5.0" EndY="2.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="5.0" EndY="2.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="7.0" EndY="2.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="7.0" EndY="2.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="5.0" EndY="7.0"/>
+			</MountPoints>
 			<Model>Models\RailgunTurret_MainScene.mwm</Model>
 			<Components>
-				<Component Count="100" Subtype="SteelPlate"/>
-				<Component Count="150" Subtype="Construction"/>
-				<Component Count="40" Subtype="LargeTube" />
-				<Component Count="50" Subtype="Motor" />
-				<Component Count="50" Subtype="MetalGrid" />
-				<Component Count="150" Subtype="Computer"/>
-				<Component Count="150" Subtype="Construction"/>
-				<Component Count="300" Subtype="SteelPlate"/>
+				<Component Subtype="3x3TurretBaseComponent" Count="10" />
+				<Component Subtype="3x3TurretRotorComponent" Count="1" />
+				<Component Subtype="AvalancheComponent" Count="1" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="AvalancheComponent" Count="4" />
 			</Components>
 			<CriticalComponent Index="0" Subtype="Computer"/>
 			<BlockPairName>RailgunTurret_Block</BlockPairName>

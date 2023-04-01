@@ -25,7 +25,7 @@ namespace Scripts {
                         MuzzlePartId = "TorpReaperElevationn", // The subpart where your muzzle empties are located. This is often the elevation subpart.
                         AzimuthPartId = "TorpReaperAZZ", // Your Rotating Subpart, the bit that moves sideways
                         ElevationPartId = "TorpReaperElevationn",// Your Elevating Subpart, that bit that moves up
-                        DurabilityMod = 0.20f, // GeneralDamageMultiplier, 0.25f = 25% damage taken.
+                        DurabilityMod = 0.25f, // GeneralDamageMultiplier, 0.25f = 25% damage taken.
                         IconName = "TestIcon.dds" // Overlay for block inventory slots, like reactors, refineries, etc.
                     },
                     
