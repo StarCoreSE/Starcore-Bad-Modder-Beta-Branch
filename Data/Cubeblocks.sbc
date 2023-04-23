@@ -12,7 +12,7 @@
 			<DisplayName>F-3 "Priest" Heavy Machinegun</DisplayName>
 			<Description>2.25km Range Anti Missile Turret. Kinetic Damage, 2000m/s bullet speed.</Description>
 			<GuiVisible>true</GuiVisible>
-			<Icon>Textures\GUI\Icons\Iron_Maiden_Main_Scene.png</Icon>
+			<Icon>Textures\GUI\Icons\priest.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3"/>
@@ -70,7 +70,7 @@
 			<Description>Area denial system capable of engaging and destroying projectiles with extreme prejudice. Overheats after sustained use and will automatically reduce its damage output when it reaches max heat capacity. Power hungry munition killer</Description>
 			<GuiVisible>true</GuiVisible>
 
-			<Icon>Textures\GUI\Icons\NewHousing.png</Icon>
+			<Icon>Textures\GUI\Icons\ClanLAMS.dds</Icon>
 
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -136,7 +136,7 @@
 <Description>Long Ranged Turret [6km]  Magazine Capacity: 8 Reload Speed: 21.25 seconds Projectile Speed: 1600m/s, Damage Type: Energy </Description>
 			
 			<GuiVisible>true</GuiVisible>
-            <Icon>Textures\GUI\Icons\Mk1Test.png</Icon>
+            <Icon>Textures\GUI\Icons\AltType18.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="5" z="6"/>
@@ -199,7 +199,7 @@
 			6km Range High Velocity HE Shell.
 			</Description>
 			<GuiVisible>true</GuiVisible>
-			<Icon>Textures\GUI\Icons\Mk1Test.png</Icon>
+			<Icon>Textures\GUI\Icons\Type21.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="5" y="7" z="8"/>
@@ -315,7 +315,7 @@
 			</Id>
 			<DisplayName>Hadean Superheavy Plasma-Blastguns</DisplayName>
 			<GuiVisible>false</GuiVisible>
-			<Icon>Textures\GUI\Icons\HSR\HS_HeavyRail.dds</Icon>
+			<Icon>Textures\GUI\Icons\Hadean.png</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="9" y="5" z="9" />
@@ -383,7 +383,7 @@
 			<DisplayName>Vindicator Kinetic Battery</DisplayName>
 			<GuiVisible>true</GuiVisible>
 			<Public>true</Public>
-			<Icon>Textures\GUI\Icons\HSR\HS_HeavyRail.dds</Icon>
+			<Icon>Textures\GUI\Icons\Vindicator.png</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="9" y="4" z="9" />
@@ -453,10 +453,10 @@
 				<SubtypeId>Light_Coil_Turret</SubtypeId>
 			</Id>
 			<DisplayName>Reaver Light Coilgun Battery</DisplayName>
-			<Description>fuckin' sixty.  3km Range, Kinetic Damage, 5000m/s, Wont miss by much.</Description>
+			<Description>2.8km Range, Kinetic Damage, 5000m/s, Wont miss by much.</Description>
 			<GuiVisible>true</GuiVisible>
 
-			<Icon>Textures\GUI\Icons\CoilgunMk2.png</Icon>
+			<Icon>Textures\GUI\Icons\reaver.dds</Icon>
 
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -513,15 +513,15 @@
 				<SubtypeId>Assault_Coil_Turret</SubtypeId>
 			</Id>
 			<DisplayName>Salvo Light Battery</DisplayName>
-			<Description> Cooler Name Pending
-				3.5km Range, rapid fire autocannons, 1600m/s velocity.
+			<Description>
+				3km Range, rapid fire autocannons, 1600m/s velocity.
 				High Explosive rounds with a primitive contact fuse.
 				Deals Energy Damage to Opponents.
 				20 round burst, 15 second reload.
 			</Description>
 			<GuiVisible>true</GuiVisible>
 
-			<Icon>Textures\GUI\Icons\UNSC_Coilgun.png</Icon>
+			<Icon>Textures\GUI\Icons\Salvo.dds</Icon>
 
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
