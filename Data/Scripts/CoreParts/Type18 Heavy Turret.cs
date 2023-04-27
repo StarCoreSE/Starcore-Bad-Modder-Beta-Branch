@@ -34,7 +34,7 @@ namespace Scripts {
                     "muzzle_projectile_1",
                     
                 },
-                Ejector = "detector_wardrobe", // Optional; empty from which to eject "shells" if specified.
+                Ejector = "", // Optional; empty from which to eject "shells" if specified.
                 Scope = "camera", // Where line of sight checks are performed from. Must be clear of block collision.
             },
             Targeting = new TargetingDef
