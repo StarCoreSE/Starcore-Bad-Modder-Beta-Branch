@@ -84,9 +84,9 @@
 				<Component Subtype="SmallTube" Count="80" />
 				<Component Subtype="LargeTube" Count="20" />
 				<Component Subtype="Motor" Count="16" />
+				<Component Subtype="Computer" Count="12" />
 				<Component Subtype="Superconductor" Count="60" />
 				<Component Subtype="BulletproofGlass" Count="25" />
-				<Component Subtype="Computer" Count="12" />
 				<Component Subtype="MetalGrid" Count="500" />
 				<Component Subtype="Construction" Count="300" />
 				<Component Subtype="SteelPlate" Count="1500" />
@@ -151,21 +151,21 @@
             <Model>Models\Mk1Test.mwm</Model>
             <Components>
 
-				<Component Subtype="3x3TurretBaseComponent" Count="10" />
+				<!--<Component Subtype="3x3TurretBaseComponent" Count="10" />
 				<Component Subtype="3x3TurretRotorComponent" Count="1" />
 				<Component Subtype="AvalancheComponent" Count="1" />
 				<Component Subtype="Computer" Count="1" />
-				<Component Subtype="AvalancheComponent" Count="4" />				
+				<Component Subtype="AvalancheComponent" Count="4" />	-->			
 				
 				
-		    <!--<Component Count="100" Subtype="SteelPlate"/>
+				<Component Count="1000" Subtype="SteelPlate"/>
 				<Component Count="150" Subtype="Construction"/>
 				<Component Count="40" Subtype="LargeTube" />
                 <Component Count="50" Subtype="Motor" />
+				<Component Count="150" Subtype="Computer"/>
 				<Component Count="50" Subtype="MetalGrid" />
-                <Component Count="150" Subtype="Computer"/>
 				<Component Count="150" Subtype="Construction"/>
-				<Component Count="300" Subtype="SteelPlate"/>-->
+				<Component Count="3000" Subtype="SteelPlate"/>
 			</Components>
             <CriticalComponent Index="0" Subtype="Computer"/>
 			<BlockPairName>MK1BattleshipGun_Block</BlockPairName>
@@ -207,21 +207,21 @@
 			<Model>Models\Mk2.mwm</Model>
 			<Components>
 
-				<Component Subtype="3x3TurretBaseComponent" Count="1" />
+				<!--<Component Subtype="3x3TurretBaseComponent" Count="1" />
 				<Component Subtype="3x3TurretRotorComponent" Count="1" />
 				<Component Subtype="AvalancheComponent" Count="10" />
 				<Component Subtype="Computer" Count="1" />
-				<Component Subtype="AvalancheComponent" Count="10" />
+				<Component Subtype="AvalancheComponent" Count="10" />-->
 
 
-			<!--<Component Count="15" Subtype="SteelPlate"/>
+				<Component Count="2000" Subtype="SteelPlate"/>
 				<Component Count="5" Subtype="Construction"/>
 				<Component Count="5" Subtype="LargeTube" />
 				<Component Count="10" Subtype="Motor" />
-				<Component Count="10" Subtype="MetalGrid" />
 				<Component Count="25" Subtype="Computer"/>
+				<Component Count="10" Subtype="MetalGrid" />
 				<Component Count="50" Subtype="Construction"/>
-				<Component Count="100" Subtype="SteelPlate"/>-->
+				<Component Count="3000" Subtype="SteelPlate"/>
 			</Components>
 			<CriticalComponent Index="0" Subtype="Computer"/>
 			<MountPoints>
