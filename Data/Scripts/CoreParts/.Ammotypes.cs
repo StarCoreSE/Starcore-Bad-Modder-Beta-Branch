@@ -5243,21 +5243,14 @@ namespace Scripts
             Pattern = new PatternDef
             {
                 Patterns = new[] { // If enabled, set of multiple ammos to fire in order instead of the main ammo. Every 16th shot is high damage. 
-                    "Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo",
-                    "Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo",
-                    "Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo",
-                    "Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo",
-                    "Laser_Ammo_High_Damage","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo",
-                    "Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo",
-                    "Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo",
-                    "Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo_High_Damage",
+                    "",
                 },
                 Mode = Weapon, // Select when to activate this pattern, options: Never, Weapon, Fragment, Both 
                 TriggerChance = 1f, // This is %
                 Random = false, // This randomizes the number spawned at once, NOT the list order.
                 RandomMin = 1,
                 RandomMax = 1,
-                SkipParent = true, // Skip the Ammo itself, in the list
+                SkipParent = false, // Skip the Ammo itself, in the list
                 PatternSteps = 1, // Number of Ammos activated per round, will progress in order and loop. Ignored if Random = true.
             },
             DamageScales = new DamageScaleDef
