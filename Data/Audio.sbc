@@ -295,42 +295,6 @@
 		  </Waves>
 	  </Sound>
 
-	  <Sound>
-		  <Id>
-			  <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
-			  <SubtypeId>NewLargeCalibreReload</SubtypeId>
-		  </Id>
-		  <Category>SHOT</Category>
-		  <MaxDistance>2400</MaxDistance>
-		  <PreventSynchronization>0</PreventSynchronization>
-		  <DistantSounds>
-			  <DistantSound DistanceCrossfade="100" Distance="900" Sound="NewLargeCalibreReloadDist" />
-		  </DistantSounds>
-		  <Volume>1.2</Volume>
-		  <VolumeVariation>0.2</VolumeVariation>
-		  <PitchVariation>50</PitchVariation>
-		  <Waves>
-			  <Wave Type="D3">
-				  <Start>Audio\Reloads\AvalancheReload.wav</Start>
-			  </Wave>
-		  </Waves>
-	  </Sound>
-	  <Sound>
-		  <Id>
-			  <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
-			  <SubtypeId>NewLargeCalibreReloadDist</SubtypeId>
-		  </Id>
-		  <Category>SHOT</Category>
-		  <MaxDistance>2400</MaxDistance>
-		  <Volume>1.2</Volume>
-		  <VolumeVariation>0.2</VolumeVariation>
-		  <PitchVariation>50</PitchVariation>
-		  <Waves>
-			  <Wave Type="D3">
-				  <Start>Audio\Reloads\AvalancheReloadDistant.wav</Start>
-			  </Wave>
-		  </Waves>
-	  </Sound>
 
 	  <!--NEW SOUNDS-->
 
@@ -372,42 +336,6 @@
 		  </Waves>
 	  </Sound>
 
-	  <Sound>
-		  <Id>
-			  <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
-			  <SubtypeId>MyDualLargeCalibreReload</SubtypeId>
-		  </Id>
-		  <Category>SHOT</Category>
-		  <MaxDistance>1800</MaxDistance>
-		  <PreventSynchronization>0</PreventSynchronization>
-		  <DistantSounds>
-			  <DistantSound DistanceCrossfade="100" Distance="700" Sound="MyDualLargeCalibreReloadDist" />
-		  </DistantSounds>
-		  <Volume>1.2</Volume>
-		  <VolumeVariation>0.2</VolumeVariation>
-		  <PitchVariation>50</PitchVariation>
-		  <Waves>
-			  <Wave Type="D3">
-				  <Start>Audio\Reloads\DualAvalancheReload.wav</Start>
-			  </Wave>
-		  </Waves>
-	  </Sound>
-	  <Sound>
-		  <Id>
-			  <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
-			  <SubtypeId>MyDualLargeCalibreReloadDist</SubtypeId>
-		  </Id>
-		  <Category>SHOT</Category>
-		  <MaxDistance>1800</MaxDistance>
-		  <Volume>1.2</Volume>
-		  <VolumeVariation>0.2</VolumeVariation>
-		  <PitchVariation>50</PitchVariation>
-		  <Waves>
-			  <Wave Type="D3">
-				  <Start>Audio\Reloads\DualAvalancheReloadDistant.wav</Start>
-			  </Wave>
-		  </Waves>
-	  </Sound>
 
 	  <!--Click Click-->
 	  <Sound>

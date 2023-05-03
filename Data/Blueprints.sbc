@@ -22,6 +22,49 @@
 		  <Result Amount="1" TypeId="Component" SubtypeId="AvalancheComponent" />
 		  <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
 	  </Blueprint>
+
+	  <Blueprint>
+		  <Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>3x3TurretBaseComponentBP</SubtypeId>
+		  </Id>
+		  <DisplayName>3x3TurretBaseComponent</DisplayName>
+		  <Icon>Textures\GUI\Icons\Mk1Test.png</Icon>
+		  <Prerequisites>
+			  <Item Amount="300" TypeId="Component" SubtypeId="SteelPlate" />
+			  <Item Amount="300" TypeId="Component" SubtypeId="Construction" />
+			  <Item Amount="30" TypeId="Component" SubtypeId="Computer" />
+			  <Item Amount="30" TypeId="Component" SubtypeId="Motor" />
+			  <Item Amount="15" TypeId="Component" SubtypeId="MetalGrid" />
+			  <Item Amount="15" TypeId="Component" SubtypeId="LargeTube" />
+			  <Item Amount="15" TypeId="Component" SubtypeId="SmallTube" />
+
+		  </Prerequisites>
+		  <Result Amount="1" TypeId="Component" SubtypeId="3x3TurretBaseComponent" />
+		  <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+	  </Blueprint>
+    
+ 	  <Blueprint>
+		  <Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>3x3TurretRotorComponentBP</SubtypeId>
+		  </Id>
+		  <DisplayName>3x3TurretRotorComponent</DisplayName>
+		  <Icon>Textures\GUI\Icons\Mk1Test.png</Icon>
+		  <Prerequisites>
+			  <Item Amount="300" TypeId="Component" SubtypeId="SteelPlate" />
+			  <Item Amount="300" TypeId="Component" SubtypeId="Construction" />
+			  <Item Amount="30" TypeId="Component" SubtypeId="Computer" />
+			  <Item Amount="30" TypeId="Component" SubtypeId="Motor" />
+			  <Item Amount="15" TypeId="Component" SubtypeId="MetalGrid" />
+			  <Item Amount="15" TypeId="Component" SubtypeId="LargeTube" />
+			  <Item Amount="15" TypeId="Component" SubtypeId="SmallTube" />
+
+		  </Prerequisites>
+		  <Result Amount="1" TypeId="Component" SubtypeId="3x3TurretRotorComponent" />
+		  <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+	  </Blueprint>
+    
 	  
 	  
 	  <!--COMPONENTS ARE ABOVE, AMMO BELOW.-->
