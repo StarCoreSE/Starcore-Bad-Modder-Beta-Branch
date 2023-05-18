@@ -18,18 +18,14 @@
             <ModelOffset x="0" y="0" z="0"/>
             <Model>Models\PriestReskin_MainScene.mwm</Model>
           <Components>
-            <Component Subtype="SteelPlate" Count="250" />
-            <Component Subtype="Construction" Count="250" />
-            <Component Subtype="InteriorPlate" Count="200" />
-            <Component Subtype="SmallTube" Count="80" />
-            <Component Subtype="LargeTube" Count="20" />
-            <Component Subtype="Motor" Count="16" />
-            <Component Subtype="Computer" Count="12" />
-            <Component Subtype="Superconductor" Count="60" />
-            <Component Subtype="BulletproofGlass" Count="25" />
-            <Component Subtype="MetalGrid" Count="500" />
-            <Component Subtype="Construction" Count="300" />
-            <Component Subtype="SteelPlate" Count="1500" />
+            <Component Count="400" Subtype="SteelPlate"/>
+            <Component Count="1200" Subtype="Construction"/>
+            <Component Count="60" Subtype="Computer"/>
+            <Component Count="99" Subtype="LargeTube" />
+            <Component Count="350" Subtype="Motor" />
+            <Component Count="250" Subtype="MetalGrid" />
+            <Component Count="500" Subtype="Construction"/>
+            <Component Count="250" Subtype="SteelPlate"/>
           </Components>
             <CriticalComponent Index="0" Subtype="Computer"/>
             <MountPoints>
