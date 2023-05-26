@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "sZGIMC/3Ucv3n+KM9gTkNlTYOL3et5MI9/I3sAgYpW2LHBH884JtTbk9DACHSAJPf/Iwv7EemcxjjtIe6/N5FQ==",
+  "dgSpecHash": "oJy8lVG9O8vOFZxpVcl9PigX2+HumoM027gTpCApYhC7e8NUUHKHqdCgs3OabdCRI2Kd4Za9gYtuBWAHgnVcqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\natha\\AppData\\Roaming\\SpaceEngineers\\Mods\\Starcore TIO Replacer Season Pass\\CoreParts.csproj",
+  "projectFilePath": "C:\\Users\\User\\AppData\\Roaming\\SpaceEngineers\\Mods\\TIOStarcore-Bad-Modder-Beta-Branch\\CoreParts.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\natha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\natha\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -5191,15 +5191,15 @@ namespace Scripts
         {
             AmmoMagazine = "Energy", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
             AmmoRound = "Laser_Ammo", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
-            HybridRound = true, // Use both a physical ammo magazine and energy per shot.
-            EnergyCost = 300f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
+            HybridRound = false, // Use both a physical ammo magazine and energy per shot.
+            EnergyCost = 150f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
             BaseDamage = 1f, // Direct damage; one steel plate is worth 100.
             Mass = 0f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 0f, // Recoil. This is applied to the Parent Grid.
             DecayPerShot = 0f, // Damage to the firing weapon itself.
             HardPointUsable = true, // Whether this is a primary ammo type fired directly by the turret. Set to false if this is a shrapnel ammoType and you don't want the turret to be able to select it directly.
-            EnergyMagazineSize = 99, // For energy weapons, how many shots to fire before reloading.
+            EnergyMagazineSize = 1, // For energy weapons, how many shots to fire before reloading.
             IgnoreWater = false, // Whether the projectile should be able to penetrate water when using WaterMod.
             IgnoreVoxels = false, // Whether the projectile should be able to penetrate voxels.
             Synchronize = false, // For future use
@@ -5243,15 +5243,9 @@ namespace Scripts
             Pattern = new PatternDef
             {
                 Patterns = new[] { // If enabled, set of multiple ammos to fire in order instead of the main ammo. Every 16th shot is high damage. 
-                    "Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo",
-                    "Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo",
-                    "Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo",
-                    "Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo",
-                    "Laser_Ammo_High_Damage","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo",
-                    "Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo",
-                    "Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo","Laser_Ammo",
+                    "",
                 },
-                Mode = Weapon, // Select when to activate this pattern, options: Never, Weapon, Fragment, Both 
+                Mode = Fragment, // Select when to activate this pattern, options: Never, Weapon, Fragment, Both 
                 TriggerChance = 1f, // This is %
                 Random = false, // This randomizes the number spawned at once, NOT the list order.
                 RandomMin = 1,
@@ -5270,8 +5264,8 @@ namespace Scripts
                 // For the following modifier values: -1 = disabled (higher performance), 0 = no damage, 0.01f = 1% damage, 2 = 200% damage.
                 FallOff = new FallOffDef
                 {
-                    Distance = 0f, // Distance at which damage begins falling off.
-                    MinMultipler = 0.1f, // Value from 0.0001f to 1f where 0.1f would be a min damage of 10% of base damage.
+                    Distance = 500f, // Distance at which damage begins falling off.
+                    MinMultipler = 0.05f, // Value from 0.0001f to 1f where 0.1f would be a min damage of 10% of base damage.
                 },
                 Grids = new GridSizeDef
                 {
@@ -5427,7 +5421,7 @@ namespace Scripts
                 TargetLossTime = 0, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                 MaxLifeTime = 0, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..). Please have a value for this, It stops Bad things.
                 AccelPerSec = 0f, // Meters Per Second. This is the spawning Speed of the Projectile, and used by turning.
-                DesiredSpeed = 1, // voxel phasing if you go above 5100
+                DesiredSpeed = 8000, // voxel phasing if you go above 5100
                 MaxTrajectory = 6400f, // Max Distance the projectile or beam can Travel.
                 DeaccelTime = 0, // 0 is disabled a value causes the projectile to come to rest, spawn a field and remain for a time (Measured in game ticks, 60 = 1 second)
                 GravityMultiplier = 0f, // Gravity multiplier, influences the trajectory of the projectile, value greater than 0 to enable. Natural Gravity Only.
@@ -5651,7 +5645,7 @@ namespace Scripts
                 MaxIntegrity = 0f, // Blocks with integrity higher than this value will be immune to damage from this projectile; 0 = disabled.
                 DamageVoxels = false, // Whether to damage voxels.
                 SelfDamage = false, // Whether to damage the weapon's own grid.
-                HealthHitModifier = 50.5f, // How much Health to subtract from another projectile on hit; defaults to 1 if zero or less.
+                HealthHitModifier = 50f, // How much Health to subtract from another projectile on hit; defaults to 1 if zero or less.
                 VoxelHitModifier = 1, // Voxel damage multiplier; defaults to 1 if zero or less.
                 Characters = -1f, // Character damage multiplier; defaults to 1 if zero or less.
                 // For the following modifier values: -1 = disabled (higher performance), 0 = no damage, 0.01f = 1% damage, 2 = 200% damage.
