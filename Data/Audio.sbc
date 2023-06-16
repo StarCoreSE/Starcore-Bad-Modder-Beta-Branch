@@ -403,7 +403,7 @@
 			  <SubtypeId>MyLargeCalibreShot</SubtypeId>
 		  </Id>
 		  <Category>SHOT</Category>
-		  <MaxDistance>2000</MaxDistance>
+		  <MaxDistance>7000</MaxDistance>
 		  <PreventSynchronization>0</PreventSynchronization>
 		  <DistantSounds>
 			  <DistantSound DistanceCrossfade="80" Distance="120" Sound="MyLargeCalibreShotDistA" />
@@ -431,7 +431,7 @@
 			  <SubtypeId>MyLargeCalibreShotDistA</SubtypeId>
 		  </Id>
 		  <Category>SHOT</Category>
-		  <MaxDistance>3000</MaxDistance>
+		  <MaxDistance>7000</MaxDistance>
 
 		  <Volume>4</Volume>
 		  <PitchVariation>30</PitchVariation>
@@ -448,7 +448,7 @@
 			  <SubtypeId>MyLargeCalibreShotDistB</SubtypeId>
 		  </Id>
 		  <Category>SHOT</Category>
-		  <MaxDistance>3000</MaxDistance>
+		  <MaxDistance>7000</MaxDistance>
 
 		  <Volume>4</Volume>
 		  <PitchVariation>40</PitchVariation>
@@ -464,7 +464,7 @@
 			  <SubtypeId>MyLargeCalibreShotDistC</SubtypeId>
 		  </Id>
 		  <Category>SHOT</Category>
-		  <MaxDistance>3000</MaxDistance>
+		  <MaxDistance>7000</MaxDistance>
 
 		  <Volume>3</Volume>
 		  <PitchVariation>50</PitchVariation>
@@ -481,7 +481,7 @@
 			  <SubtypeId>MyLargeCalibreShotDistD</SubtypeId>
 		  </Id>
 		  <Category>SHOT</Category>
-		  <MaxDistance>3000</MaxDistance>
+		  <MaxDistance>7000</MaxDistance>
 		  <Volume>3</Volume>
 
 		  <PitchVariation>40</PitchVariation>
@@ -497,7 +497,7 @@
 			  <SubtypeId>MyLargeCalibreShotDistE</SubtypeId>
 		  </Id>
 		  <Category>SHOT</Category>
-		  <MaxDistance>3000</MaxDistance>
+		  <MaxDistance>7000</MaxDistance>
 		  <Volume>2</Volume>
 
 		  <PitchVariation>50</PitchVariation>
@@ -513,7 +513,7 @@
 			  <SubtypeId>MyLargeCalibreShotDistF</SubtypeId>
 		  </Id>
 		  <Category>SHOT</Category>
-		  <MaxDistance>3000</MaxDistance>
+		  <MaxDistance>7000</MaxDistance>
 		  <Volume>2</Volume>
 
 		  <PitchVariation>50</PitchVariation>
@@ -529,7 +529,7 @@
 			  <SubtypeId>MyLargeCalibreShotDistG</SubtypeId>
 		  </Id>
 		  <Category>SHOT</Category>
-		  <MaxDistance>3000</MaxDistance>
+		  <MaxDistance>7000</MaxDistance>
 		  <Volume>1</Volume>
 
 		  <PitchVariation>50</PitchVariation>
@@ -545,7 +545,7 @@
 			  <SubtypeId>MyLargeCalibreShotDistH</SubtypeId>
 		  </Id>
 		  <Category>SHOT</Category>
-		  <MaxDistance>3000</MaxDistance>
+		  <MaxDistance>7000</MaxDistance>
 		  <Volume>1</Volume>
 
 		  <PitchVariation>50</PitchVariation>
@@ -561,7 +561,7 @@
 			  <SubtypeId>MyLargeCalibreShotDistI</SubtypeId>
 		  </Id>
 		  <Category>SHOT</Category>
-		  <MaxDistance>3000</MaxDistance>
+		  <MaxDistance>7000</MaxDistance>
 		  <Volume>0.8</Volume>
 
 		  <PitchVariation>50</PitchVariation>
@@ -578,7 +578,7 @@
 			  <SubtypeId>MyDualLargeCalibreShot</SubtypeId>
 		  </Id>
 		  <Category>SHOT</Category>
-		  <MaxDistance>3000</MaxDistance>
+		  <MaxDistance>7000</MaxDistance>
 		  <PreventSynchronization>0</PreventSynchronization>
 		  <DistantSounds>
 			  <DistantSound DistanceCrossfade="80" Distance="120" Sound="MyDualLargeCalibreShotDistA" />
@@ -606,7 +606,7 @@
 			  <SubtypeId>MyDualLargeCalibreShotDistA</SubtypeId>
 		  </Id>
 		  <Category>SHOT</Category>
-		  <MaxDistance>3000</MaxDistance>
+		  <MaxDistance>7000</MaxDistance>
 
 		  <Volume>2</Volume>
 		  <PitchVariation>30</PitchVariation>
@@ -622,7 +622,7 @@
 			  <SubtypeId>MyDualLargeCalibreShotDistB</SubtypeId>
 		  </Id>
 		  <Category>SHOT</Category>
-		  <MaxDistance>3000</MaxDistance>
+		  <MaxDistance>7000</MaxDistance>
 
 		  <Volume>2</Volume>
 		  <PitchVariation>40</PitchVariation>
@@ -798,7 +798,7 @@
 			  <SubtypeId>TempHeavyHit</SubtypeId>
 		  </Id>
 		  <Category>SHOT</Category>
-		  <MaxDistance>3000</MaxDistance>
+		  <MaxDistance>7000</MaxDistance>
 		  <PreventSynchronization>0</PreventSynchronization>
 		  <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
 		  <DynamicMusicAmount>5</DynamicMusicAmount>
@@ -827,7 +827,7 @@
 			  <SubtypeId>TempHeavyDistantHit</SubtypeId>
 		  </Id>
 		  <Category>SHOT</Category>
-		  <MaxDistance>3000</MaxDistance>
+		  <MaxDistance>7000</MaxDistance>
 		  <PreventSynchronization>0</PreventSynchronization>
 		  <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
 		  <DynamicMusicAmount>5</DynamicMusicAmount>
