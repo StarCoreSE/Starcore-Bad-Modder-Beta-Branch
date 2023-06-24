@@ -12,7 +12,7 @@
 			<DisplayName>F-3 "Priest" Heavy Machinegun</DisplayName>
 			<Description>2.25km Range Anti Missile Turret. Kinetic Damage, 2000m/s bullet speed.</Description>
 			<GuiVisible>true</GuiVisible>
-			<Icon>Textures\GUI\Icons\Iron_Maiden_Main_Scene.png</Icon>
+			<Icon>Textures\GUI\Icons\priest.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3"/>
@@ -74,7 +74,7 @@
 			<Description>Area denial system capable of engaging and destroying projectiles with extreme prejudice. Overheats after sustained use and will automatically reduce its damage output when it reaches max heat capacity. Power hungry munition killer</Description>
 			<GuiVisible>true</GuiVisible>
 
-			<Icon>Textures\GUI\Icons\NewHousing.png</Icon>
+			<Icon>Textures\GUI\Icons\LAMS.dds</Icon>
 
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -140,7 +140,7 @@
 <Description>Long Ranged Turret [6km]  Magazine Capacity: 8 Reload Speed: 21.25 seconds Projectile Speed: 1600m/s, Damage Type: Energy </Description>
 			
 			<GuiVisible>true</GuiVisible>
-            <Icon>Textures\GUI\Icons\Mk1Test.png</Icon>
+            <Icon>Textures\GUI\Icons\AltType18.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="5" z="6"/>
@@ -203,7 +203,7 @@
 			6km Range High Velocity HE Shell.
 			</Description>
 			<GuiVisible>true</GuiVisible>
-			<Icon>Textures\GUI\Icons\Mk1Test.png</Icon>
+			<Icon>Textures\GUI\Icons\Type21.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="5" y="7" z="8"/>
@@ -264,7 +264,7 @@
             <Description>Fires HE and EMP torpedos. Slow but deadly.</Description>
 			<GuiVisible>true</GuiVisible>
         
-            <Icon>Textures\GUI\Icons\Trident.png</Icon>
+            <Icon>Textures\GUI\Icons\Trident.dds</Icon>
             
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -319,7 +319,7 @@
 			</Id>
 			<DisplayName>Hadean Superheavy Plasma-Blastguns</DisplayName>
 			<GuiVisible>false</GuiVisible>
-			<Icon>Textures\GUI\Icons\Mk1Test.png</Icon>
+			<Icon>Textures\GUI\Icons\PlasmaBlastgun.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="9" y="5" z="9" />
@@ -387,7 +387,7 @@
 			<DisplayName>Vindicator Kinetic Battery</DisplayName>
 			<GuiVisible>true</GuiVisible>
 			<Public>true</Public>
-			<Icon>Textures\GUI\Icons\Mk1Test.png</Icon>
+			<Icon>Textures\GUI\Icons\KineticBattery.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="9" y="4" z="9" />
@@ -460,7 +460,7 @@
 			<Description>2.8km Range, Kinetic Damage, 5000m/s, Wont miss by much.</Description>
 			<GuiVisible>true</GuiVisible>
 
-			<Icon>Textures\GUI\Icons\CoilgunMk2.png</Icon>
+			<Icon>Textures\GUI\Icons\reaver.dds</Icon>
 
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -525,7 +525,7 @@
 			</Description>
 			<GuiVisible>true</GuiVisible>
 
-			<Icon>Textures\GUI\Icons\CoilgunMk2.png</Icon>
+			<Icon>Textures\GUI\Icons\Salvo.dds</Icon>
 
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -636,7 +636,7 @@
             <Description>
 			6 tube fast loading rocket packs that fire heavy unguided rockets.  Deals Energy damage in a large AOE, 6km range.  Rockets have a 1900m/s velocity.</Description>
 			<GuiVisible>true</GuiVisible>
-            <Icon>Textures\GUI\Icons\MissileLaunchSystem_Main_Scene.png</Icon>
+            <Icon>Textures\GUI\Icons\Peacemaker.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
            <Size x="3" y="4" z="2"/>
