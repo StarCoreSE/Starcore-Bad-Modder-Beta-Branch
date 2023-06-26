@@ -138,7 +138,7 @@ namespace Scripts {
                 Other = new OtherDef
                 {
                     ConstructPartCap = 0, // Maximum number of blocks with this weapon on a grid; 0 = unlimited.
-                    RotateBarrelAxis = 0, // For spinning barrels, which axis to spin the barrel around; 0 = none.
+                    RotateBarrelAxis = 3, // For spinning barrels, which axis to spin the barrel around; 0 = none.
                     EnergyPriority = 0, // Deprecated.
                     MuzzleCheck = false, // Whether the weapon should check LOS from each individual muzzle in addition to the scope.
                     DisableLosCheck = false, // Do not perform LOS checks at all... not advised for self tracking weapons
@@ -226,7 +226,7 @@ namespace Scripts {
                 LrgGatlingTurretFragment,  
                  // Must list all primary, shrapnel, and pattern ammos.
             },
-            Animations = PriestReskin_AdvancedAnimation,
+           // Animations = PriestReskin_AdvancedAnimation,
             //Upgrades = UpgradeModules,
         };
         // Don't edit below this line.

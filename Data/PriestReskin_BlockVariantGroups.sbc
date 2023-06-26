@@ -4,7 +4,7 @@
   
 		<BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Heavy_Repeater" />
-            <Icon>Textures\GUI\Icons\Iron_Maiden_Main_Scene.png</Icon>
+            <Icon>Textures\GUI\Icons\priest.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
