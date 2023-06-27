@@ -41,7 +41,7 @@ namespace Scripts
         private AmmoDef PriestReskin_Ammo => new AmmoDef // Your ID, for slotting into the Weapon CS
         {
             AmmoMagazine = "25x184mm", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
-            AmmoRound = "25x184mm", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
+            AmmoRound = "25x184mmPriestReskin", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 69f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
             BaseDamage = 2000f, // Direct damage; one steel plate is worth 100.
@@ -103,7 +103,7 @@ namespace Scripts
             Pattern = new PatternDef
             {
                 Patterns = new[] { // If enabled, set of multiple ammos to fire in order instead of the main ammo.
-                    "Real Fake 25x184mm Bullet", "Real Fake 25x184mm Bullet", "Real Fake 25x184mm Bullet",
+                    "Real Fake 25x184mm BulletPriest", "Real Fake 25x184mm BulletPriest", "Real Fake 25x184mm BulletPriest",
                 },
                 Mode = Weapon, // Select when to activate this pattern, options: Never, Weapon, Fragment, Both 
                 TriggerChance = 1f, // This is %

@@ -221,9 +221,8 @@ namespace Scripts {
             },
             Ammos = new[] {
                 PriestReskin_Ammo,
-                LrgGatlingTurretAmmo, 
-                FakeLrgGatlingTurretAmmo, 
-                LrgGatlingTurretFragment,  
+                PriestFakeLrgGatlingTurretAmmo,
+                PriestLrgGatlingTurretFragment,  
                  // Must list all primary, shrapnel, and pattern ammos.
             },
            // Animations = PriestReskin_AdvancedAnimation,

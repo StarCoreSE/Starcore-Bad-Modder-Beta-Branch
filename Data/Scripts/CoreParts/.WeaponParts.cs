@@ -224,7 +224,7 @@ namespace Scripts {
                 },
             },
             Ammos = new[] {
-                LrgGatlingTurretAmmo, FakeLrgGatlingTurretAmmo, LrgGatlingTurretFragment, 
+                PriestLrgGatlingTurretAmmo, PriestFakeLrgGatlingTurretAmmo, PriestLrgGatlingTurretFragment, 
                  // Must list all primary, shrapnel, and pattern ammos.
             },
             Animations = IronMaiden_AdvancedAnimation,
