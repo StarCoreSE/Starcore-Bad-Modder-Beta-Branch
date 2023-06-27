@@ -269,7 +269,7 @@
 			  <DistantSound DistanceCrossfade="200" Distance="800" Sound="LightTurbolaserShotDist" />
 		  </DistantSounds>
 		  <PitchVariation>100</PitchVariation>
-		  <Volume>6</Volume>
+		  <Volume>4</Volume>
 		  <Waves>
 			  <Wave Type="D3">
 				  <Start>Audio\Shot\LightTurbolaser.wav</Start>
@@ -289,7 +289,7 @@
 		  </Id>
 		  <Category>SHOT</Category>
 		  <MaxDistance>3600</MaxDistance>
-		  <Volume>4</Volume>
+		  <Volume>3</Volume>
 		  <PitchVariation>100</PitchVariation>
 		  <Waves>
 			  <Wave Type="D3">
@@ -310,7 +310,7 @@
 			  <DistantSound DistanceCrossfade="200" Distance="800" Sound="LightBlasterCannonShotDist" />
 		  </DistantSounds>
 		  <PitchVariation>100</PitchVariation>
-		  <Volume>7</Volume>
+		  <Volume>9</Volume>
 		  <Waves>
 			  <Wave Type="D3">
 				  <Start>Audio\Shot\LightBlasterCannon.wav</Start>
@@ -330,7 +330,7 @@
 		  </Id>
 		  <Category>SHOT</Category>
 		  <MaxDistance>3600</MaxDistance>
-		  <Volume>4</Volume>
+		  <Volume>7</Volume>
 		  <PitchVariation>100</PitchVariation>
 		  <Waves>
 			  <Wave Type="D3">
