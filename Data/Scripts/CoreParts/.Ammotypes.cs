@@ -40,7 +40,7 @@ namespace Scripts
     {
 
         //Priest Dual Purpose PD
-        private AmmoDef F-3_Ammo => new AmmoDef // Your ID, for slotting into the Weapon CS
+        private AmmoDef F3Ammo => new AmmoDef // Your ID, for slotting into the Weapon CS
         {
             AmmoMagazine = "F-3 Ammo Belt", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
             AmmoRound = "F-3 Ammo Belt", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
@@ -446,7 +446,7 @@ namespace Scripts
                 }
             }, // Don't edit below this line
         };
-        private AmmoDef Fake_F-3_Ammo => new AmmoDef // Your ID, for slotting into the Weapon CS
+        private AmmoDef FakeF3Ammo => new AmmoDef // Your ID, for slotting into the Weapon CS
         {
             AmmoMagazine = "F-3 Ammo Belt", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
             AmmoRound = "Real Fake F-3 Ammo Belt Bullet", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
@@ -848,7 +848,7 @@ namespace Scripts
                 }
             }, // Don't edit below this line
         };
-        private AmmoDef F-3_AmmoFragment => new AmmoDef // Your ID, for slotting into the Weapon CS
+        private AmmoDef F3AmmoFragment => new AmmoDef // Your ID, for slotting into the Weapon CS
         {
             AmmoMagazine = "", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
             AmmoRound = "Frag F-3 Ammo Belt", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.

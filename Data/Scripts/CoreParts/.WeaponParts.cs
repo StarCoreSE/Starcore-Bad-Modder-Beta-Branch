@@ -224,7 +224,7 @@ namespace Scripts {
                 },
             },
             Ammos = new[] {
-                F-3_Ammo, Fake_F-3_Ammo, F-3_AmmoFragment, 
+                F3Ammo, FakeF3Ammo, F3AmmoFragment, 
                  // Must list all primary, shrapnel, and pattern ammos.
             },
             Animations = IronMaiden_AdvancedAnimation,
@@ -437,7 +437,7 @@ namespace Scripts {
                 },
             },
             Ammos = new[] {
-                F-3_Ammo, Fake_F-3_Ammo, F-3_AmmoFragment,  
+                F3Ammo, FakeF3Ammo, F3AmmoFragment,  
                  // Must list all primary, shrapnel, and pattern ammos.
             },
            // Animations = PriestReskin_AdvancedAnimation,
@@ -872,7 +872,9 @@ namespace Scripts {
                 },
             },
             Ammos = new[] {
-                SalvoCalibreAmmo, 
+                MediumCalibreSalvoAmmo,
+                MediumTurbolaserAmmo,
+                MediumBlasterAmmo, 
                 // Must list all primary, shrapnel, and pattern ammos.
             },
             Animations = CoilgunMk1_AdvancedAnimation,
