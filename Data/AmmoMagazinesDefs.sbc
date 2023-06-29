@@ -121,7 +121,7 @@
 	<AmmoMagazine>
 		<Id>
 			<TypeId>AmmoMagazine</TypeId>
-			<SubtypeId>25x184mm</SubtypeId>
+			<SubtypeId>F-3 Ammo Belt</SubtypeId>
 		</Id>
 		<DisplayName>DisplayName_Item_NATO_25x184mm</DisplayName>
 		<Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>

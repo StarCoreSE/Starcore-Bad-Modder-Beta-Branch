@@ -40,10 +40,10 @@ namespace Scripts
     {
 
         //Priest Dual Purpose PD
-        private AmmoDef LrgGatlingTurretAmmo => new AmmoDef // Your ID, for slotting into the Weapon CS
+        private AmmoDef F-3_Ammo => new AmmoDef // Your ID, for slotting into the Weapon CS
         {
-            AmmoMagazine = "25x184mm", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
-            AmmoRound = "25x184mm", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
+            AmmoMagazine = "F-3 Ammo Belt", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
+            AmmoRound = "F-3 Ammo Belt", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 69f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
             BaseDamage = 2000f, // Direct damage; one steel plate is worth 100.
@@ -78,7 +78,7 @@ namespace Scripts
             },
             Fragment = new FragmentDef // Formerly known as Shrapnel. Spawns specified ammo fragments on projectile death (via hit or detonation).
             {
-                AmmoRound = "Frag 25x184mm", // AmmoRound field of the ammo to spawn.
+                AmmoRound = "Frag F-3 Ammo Belt", // AmmoRound field of the ammo to spawn.
                 Fragments = 1, // Number of projectiles to spawn.
                 Degrees = 46, // Cone in which to randomize direction of spawned projectiles.
                 Reverse = false, // Spawn projectiles backward instead of forward.
@@ -105,7 +105,7 @@ namespace Scripts
             Pattern = new PatternDef
             {
                 Patterns = new[] { // If enabled, set of multiple ammos to fire in order instead of the main ammo.
-                    "Real Fake 25x184mm Bullet", "Real Fake 25x184mm Bullet", "Real Fake 25x184mm Bullet",
+                    "Real Fake F-3 Ammo Belt Bullet", "Real Fake F-3 Ammo Belt Bullet", "Real Fake F-3 Ammo Belt Bullet",
                 },
                 Mode = Weapon, // Select when to activate this pattern, options: Never, Weapon, Fragment, Both 
                 TriggerChance = 1f, // This is %
@@ -446,10 +446,10 @@ namespace Scripts
                 }
             }, // Don't edit below this line
         };
-        private AmmoDef FakeLrgGatlingTurretAmmo => new AmmoDef // Your ID, for slotting into the Weapon CS
+        private AmmoDef Fake_F-3_Ammo => new AmmoDef // Your ID, for slotting into the Weapon CS
         {
-            AmmoMagazine = "25x184mm", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
-            AmmoRound = "Real Fake 25x184mm Bullet", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
+            AmmoMagazine = "F-3 Ammo Belt", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
+            AmmoRound = "Real Fake F-3 Ammo Belt Bullet", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
             BaseDamage = 0.4f, // Direct damage; one steel plate is worth 100.
@@ -848,10 +848,10 @@ namespace Scripts
                 }
             }, // Don't edit below this line
         };
-        private AmmoDef LrgGatlingTurretFragment => new AmmoDef // Your ID, for slotting into the Weapon CS
+        private AmmoDef F-3_AmmoFragment => new AmmoDef // Your ID, for slotting into the Weapon CS
         {
             AmmoMagazine = "", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
-            AmmoRound = "Frag 25x184mm", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
+            AmmoRound = "Frag F-3 Ammo Belt", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
             BaseDamage = 0.4f, // Direct damage; one steel plate is worth 100.
@@ -1252,7 +1252,7 @@ namespace Scripts
         };
 
         //Salvos and Reavers
-        private AmmoDef MediumCalibreAmmo => new AmmoDef // Your ID, for slotting into the Weapon CS
+        private AmmoDef MediumCalibreSalvoAmmo => new AmmoDef // Your ID, for slotting into the Weapon CS
         {
             AmmoMagazine = "AutoShellAmmo", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
             AmmoRound = "Assault Cannon Shell", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
