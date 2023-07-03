@@ -146,7 +146,7 @@ namespace Scripts {
                 {
                     PreFiringSound = "AvalancheDelayFire", // Audio for warmup effect.
                     FiringSound = "MyDualLargeCalibreShot", // Audio for firing.
-                    FiringSoundPerShot = false, // Whether to replay the sound for each shot, or just loop over the entire track while firing.
+                    FiringSoundPerShot = true, // Whether to replay the sound for each shot, or just loop over the entire track while firing.
                     ReloadSound = "MyDualLargeCalibreReload", // Sound SubtypeID, for when your Weapon is in a reloading state
                     NoAmmoSound = "",
                     HardPointRotationSound = "WepTurretGatlingRotate", // Audio played when turret is moving.
