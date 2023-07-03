@@ -225,6 +225,7 @@ namespace Scripts {
             },
             Ammos = new[] {
                 F3Ammo, FakeF3Ammo, F3AmmoFragment, 
+
                  // Must list all primary, shrapnel, and pattern ammos.
             },
             Animations = IronMaiden_AdvancedAnimation,

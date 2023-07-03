@@ -40,6 +40,7 @@ namespace Scripts
     {
 
         //Priest Dual Purpose PD
+
         private AmmoDef F3Ammo => new AmmoDef // Your ID, for slotting into the Weapon CS
         {
             AmmoMagazine = "F-3 Ammo Belt", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
@@ -78,6 +79,7 @@ namespace Scripts
             },
             Fragment = new FragmentDef // Formerly known as Shrapnel. Spawns specified ammo fragments on projectile death (via hit or detonation).
             {
+
                 AmmoRound = "Frag F-3 Ammo Belt", // AmmoRound field of the ammo to spawn.
                 Fragments = 1, // Number of projectiles to spawn.
                 Degrees = 46, // Cone in which to randomize direction of spawned projectiles.
@@ -106,6 +108,7 @@ namespace Scripts
             {
                 Patterns = new[] { // If enabled, set of multiple ammos to fire in order instead of the main ammo.
                     "Real Fake F-3 Ammo Belt Bullet", "Real Fake F-3 Ammo Belt Bullet", "Real Fake F-3 Ammo Belt Bullet",
+
                 },
                 Mode = Weapon, // Select when to activate this pattern, options: Never, Weapon, Fragment, Both 
                 TriggerChance = 1f, // This is %
@@ -446,6 +449,7 @@ namespace Scripts
                 }
             }, // Don't edit below this line
         };
+
         private AmmoDef FakeF3Ammo => new AmmoDef // Your ID, for slotting into the Weapon CS
         {
             AmmoMagazine = "F-3 Ammo Belt", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
