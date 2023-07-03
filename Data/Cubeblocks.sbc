@@ -887,7 +887,7 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="2" z="3" />
 			<ModelOffset x="0" y="0" z="0" />
-			<Model>Models\HSR\K_HSR_Reactor_Large.mwm</Model>
+			<Model>Models\KreegBioReactor.mwm</Model>
 			<Components>
 
 				<Component Subtype="Computer" Count="80" />
