@@ -1035,7 +1035,7 @@
 		  <Category>SHOT</Category>
 		  <MaxDistance>2500</MaxDistance>
 		  <PreventSynchronization>0</PreventSynchronization>
-		  <Volume>2</Volume>
+		  <Volume>1.3</Volume>
 		  <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
 		  <DynamicMusicAmount>35</DynamicMusicAmount>
 		  <PitchVariation>30</PitchVariation>
