@@ -1352,7 +1352,7 @@ namespace Scripts
                 {
                     Modifier = 1.4f, // Multiplier for damage against shields.
                     Type = Default, // Damage vs healing against shields; Default, Heal
-                    BypassModifier = -1.7f, // If greater than zero, the percentage of damage that will penetrate the shield.
+                    BypassModifier = -1.1f, // If greater than zero, the percentage of damage that will penetrate the shield.
                 },
                 DamageType = new DamageTypes // Damage type of each element of the projectile's damage; Kinetic, Energy
                 {
@@ -1740,7 +1740,7 @@ namespace Scripts
                 {
                     Modifier = 1.4f, // Multiplier for damage against shields.
                     Type = Default, // Damage vs healing against shields; Default, Heal
-                    BypassModifier = -1.7f, // If greater than zero, the percentage of damage that will penetrate the shield.
+                    BypassModifier = -1.1f, // If greater than zero, the percentage of damage that will penetrate the shield.
                 },
                 DamageType = new DamageTypes // Damage type of each element of the projectile's damage; Kinetic, Energy
                 {
@@ -2128,7 +2128,7 @@ namespace Scripts
                 {
                     Modifier = 1.4f, // Multiplier for damage against shields.
                     Type = Default, // Damage vs healing against shields; Default, Heal
-                    BypassModifier = -1.7f, // If greater than zero, the percentage of damage that will penetrate the shield.
+                    BypassModifier = -1.1f, // If greater than zero, the percentage of damage that will penetrate the shield.
                 },
                 DamageType = new DamageTypes // Damage type of each element of the projectile's damage; Kinetic, Energy
                 {
@@ -2942,7 +2942,7 @@ namespace Scripts
                 {
                     Modifier = 2.2f, // Multiplier for damage against shields.
                     Type = Default, // Damage vs healing against shields; Default, Heal
-                    BypassModifier = -1.7f, // If greater than zero, the percentage of damage that will penetrate the shield.
+                    BypassModifier = -1.10f, // If greater than zero, the percentage of damage that will penetrate the shield.
                 },
                 DamageType = new DamageTypes // Damage type of each element of the projectile's damage; Kinetic, Energy
                 {
@@ -3349,7 +3349,7 @@ namespace Scripts
                 {
                     Modifier = 1.25f, // Multiplier for damage against shields.
                     Type = Default, // Damage vs healing against shields; Default, Heal
-                    BypassModifier = -1.7f, // If greater than zero, the percentage of damage that will penetrate the shield.
+                    BypassModifier = -1.25f, // If greater than zero, the percentage of damage that will penetrate the shield.
                 },
                 DamageType = new DamageTypes // Damage type of each element of the projectile's damage; Kinetic, Energy
                 {
@@ -3739,7 +3739,7 @@ namespace Scripts
                 {
                     Modifier = 1f, // Multiplier for damage against shields.
                     Type = Default, // Damage vs healing against shields; Default, Heal
-                    BypassModifier = -1.7f, // If greater than zero, the percentage of damage that will penetrate the shield.
+                    BypassModifier = -1.3f, // If greater than zero, the percentage of damage that will penetrate the shield.
                 },
                 DamageType = new DamageTypes // Damage type of each element of the projectile's damage; Kinetic, Energy
                 {
@@ -4119,7 +4119,7 @@ namespace Scripts
                 {
                     Modifier = 1f, // Multiplier for damage against shields.
                     Type = Default, // Damage vs healing against shields; Default, Heal
-                    BypassModifier = -1.7f, // If greater than zero, the percentage of damage that will penetrate the shield.
+                    BypassModifier = -1.3f, // If greater than zero, the percentage of damage that will penetrate the shield.
                 },
                 DamageType = new DamageTypes // Damage type of each element of the projectile's damage; Kinetic, Energy
                 {
@@ -4905,7 +4905,7 @@ namespace Scripts
                 {
                     Modifier = 9f, // Multiplier for damage against shields.
                     Type = Default, // Damage vs healing against shields; Default, Heal
-                    BypassModifier = -1.7f, // If greater than zero, the percentage of damage that will penetrate the shield.
+                    BypassModifier = -1f, // If greater than zero, the percentage of damage that will penetrate the shield.
                 },
                 DamageType = new DamageTypes // Damage type of each element of the projectile's damage; Kinetic, Energy
                 {
@@ -5301,7 +5301,7 @@ namespace Scripts
                 {
                     Modifier = 1.375f, // Multiplier for damage against shields.
                     Type = Default, // Damage vs healing against shields; Default, Heal
-                    BypassModifier = -1.7f, // If greater than zero, the percentage of damage that will penetrate the shield.
+                    BypassModifier = -1f, // If greater than zero, the percentage of damage that will penetrate the shield.
                 },
                 DamageType = new DamageTypes // Damage type of each element of the projectile's damage; Kinetic, Energy
                 {
