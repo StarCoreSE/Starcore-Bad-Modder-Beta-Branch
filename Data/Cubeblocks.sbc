@@ -745,11 +745,11 @@
 			</MountPoints>
 			<Model>Models\RailgunTurret_MainScene.mwm</Model>
 			<Components>
-				<Component Subtype="3x3TurretBaseComponent" Count="10" />
-				<Component Subtype="3x3TurretRotorComponent" Count="1" />
-				<Component Subtype="AvalancheComponent" Count="1" />
+				<Component Subtype="TurretBaseComponent" Count="10" />
+				<Component Subtype="TurretRotorComponent" Count="1" />
+				<Component Subtype="HeavyTurretComponent" Count="1" />
 				<Component Subtype="Computer" Count="1" />
-				<Component Subtype="AvalancheComponent" Count="4" />
+				<Component Subtype="HeavyTurretComponent" Count="4" />
 			</Components>
 			<CriticalComponent Index="0" Subtype="Computer"/>
 			<BlockPairName>RailgunTurret_Block</BlockPairName>
@@ -881,7 +881,7 @@
 			<PCU>800</PCU>
 		</Definition>
 
-
+		<!-- Shield Heal -->
 		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
 			<Id>
 				<TypeId>ConveyorSorter</TypeId>
@@ -898,8 +898,18 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\KreegBioReactor.mwm</Model>
 			<Components>
-
-				<Component Subtype="Computer" Count="80" />
+				<Component Subtype="GravityGenerator" Count="100" />
+				<Component Subtype="Computer" Count="1" />
+				<!-- 
+				<Component Subtype="SteelPlate" Count="1100" />
+				<Component Subtype="Construction" Count="3750" />
+				<Component Subtype="Computer" Count="180" />
+				<Component Subtype="SmallTube" Count="260" />
+				<Component Subtype="Motor" Count="180" />
+				<Component Subtype="LargeTube" Count="360" />
+				<Component Subtype="MetalGrid" Count="650" />
+				<Component Subtype="Construction" Count="3750" />
+				<Component Subtype="SteelPlate" Count="1000" />-->
 
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />

@@ -13,7 +13,7 @@
                 <Y>0.5</Y>
                 <Z>0.1</Z>
             </Size>
-            <Mass>17500</Mass>
+            <Mass>15000</Mass>
             <Volume>500</Volume>
             <Model>Models\Cubes\Large\generic_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
@@ -71,7 +71,7 @@
                 <Y>0.5</Y>
                 <Z>0.1</Z>
             </Size>
-            <Mass>10000</Mass>
+            <Mass>5000</Mass>
             <Volume>500</Volume>
             <Model>Models\Cubes\Large\generic_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
