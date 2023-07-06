@@ -28,7 +28,7 @@
 			  <TypeId>BlueprintDefinition</TypeId>
 			  <SubtypeId>TurretBaseComponentBP</SubtypeId>
 		  </Id>
-		  <DisplayName>TurretBaseComponent</DisplayName>
+		  <DisplayName>Turret Base Component</DisplayName>
 		  <Icon>Textures\GUI\Icons\TRR_LG_to_SG_Stator_7x7.dds</Icon>
 		  <Prerequisites>
 			  <Item Amount="300" TypeId="Component" SubtypeId="SteelPlate" />
@@ -49,7 +49,7 @@
 			  <TypeId>BlueprintDefinition</TypeId>
 			  <SubtypeId>TurretRotorComponentBP</SubtypeId>
 		  </Id>
-		  <DisplayName>TurretRotorComponent</DisplayName>
+		  <DisplayName>Turret Rotor Component</DisplayName>
 		  <Icon>Textures\GUI\Icons\TRR_5x5x1_TR_Rotor.dds</Icon>
 		  <Prerequisites>
 			  <Item Amount="300" TypeId="Component" SubtypeId="SteelPlate" />
@@ -64,8 +64,27 @@
 		  <Result Amount="1" TypeId="Component" SubtypeId="TurretRotorComponent" />
 		  <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
 	  </Blueprint>
-    
-	  
+
+	  <Blueprint>
+		  <Id>
+			  <TypeId>BlueprintDefinition</TypeId>
+			  <SubtypeId>StructuralComponentBP</SubtypeId>
+		  </Id>
+		  <DisplayName>Turret Structural Component</DisplayName>
+		  <Icon>Textures\GUI\Icons\TRR_5x5x1_TR_Rotor.dds</Icon>
+		  <Prerequisites>
+			  <Item Amount="300" TypeId="Component" SubtypeId="SteelPlate" />
+			  <Item Amount="300" TypeId="Component" SubtypeId="Construction" />
+			  <Item Amount="30" TypeId="Component" SubtypeId="Computer" />
+			  <Item Amount="30" TypeId="Component" SubtypeId="Motor" />
+			  <Item Amount="15" TypeId="Component" SubtypeId="MetalGrid" />
+			  <Item Amount="15" TypeId="Component" SubtypeId="LargeTube" />
+			  <Item Amount="15" TypeId="Component" SubtypeId="SmallTube" />
+
+		  </Prerequisites>
+		  <Result Amount="1" TypeId="Component" SubtypeId="StructuralComponent" />
+		  <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+	  </Blueprint>
 	  
 	  <!--COMPONENTS ARE ABOVE, AMMO BELOW.-->
 	  

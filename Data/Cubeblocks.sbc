@@ -336,16 +336,12 @@
 			<Model>Models\HSR\K_HSR_KingTurret_Large.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
-				<Component Subtype="SteelPlate" Count="2900" />
-				<Component Subtype="Construction" Count="4415" />
-				<Component Subtype="MetalGrid" Count="1220" />
-				<Component Subtype="LargeTube" Count="1300" />
-				<Component Subtype="Motor" Count="2540" />
-				<Component Subtype="Computer" Count="1000" />
-				<Component Subtype="Superconductor" Count="2500" />
-				<Component Subtype="PowerCell" Count="2000" />
-				<Component Subtype="Construction" Count="2725" />
-				<Component Subtype="SteelPlate" Count="6000" />
+				<Component Subtype="TurretBaseComponent" Count="50" />
+				<Component Subtype="TurretRotorComponent" Count="1" />
+				<Component Subtype="HeavyTurretComponent" Count="6" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="StructuralComponent" Count="8" />				
+				<Component Subtype="HeavyTurretComponent" Count="6" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
@@ -404,16 +400,12 @@
 			<Model>Models\HSR\K_HSRB_Dreadnight_Large.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
-				<Component Subtype="SteelPlate" Count="2500" />
-				<Component Subtype="Construction" Count="12450" />
-				<Component Subtype="Motor" Count="650" />
-				<Component Subtype="Superconductor" Count="3600" />
-				<Component Subtype="Computer" Count="1250" />
-				<Component Subtype="PowerCell" Count="2400" />
-				<Component Subtype="MetalGrid" Count="3340" />
-				<Component Subtype="LargeTube" Count="1240" />
-				<Component Subtype="Construction" Count="5550" />
-				<Component Subtype="SteelPlate" Count="2400" />
+				<Component Subtype="TurretBaseComponent" Count="50" />
+				<Component Subtype="TurretRotorComponent" Count="1" />
+				<Component Subtype="HeavyTurretComponent" Count="6" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="StructuralComponent" Count="8" />
+				<Component Subtype="HeavyTurretComponent" Count="6" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
@@ -670,14 +662,12 @@
 			<Model>Models\HSR\K_HS_Castigation_Large.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
-				<Component Count="395" Subtype="SteelPlate"/>
-				<Component Count="499" Subtype="Construction"/>
-				<Component Count="30" Subtype="Computer"/>
-				<Component Count="50" Subtype="Motor"/>
-				<Component Count="150" Subtype="LargeTube" />
-				<Component Count="150" Subtype="MetalGrid" />
-				<Component Count="1000" Subtype="Construction"/>
-				<Component Count="1000" Subtype="SteelPlate"/>
+				<Component Subtype="TurretBaseComponent" Count="5" />
+				<Component Subtype="StructuralComponent" Count="15" />
+				<Component Subtype="TurretRotorComponent" Count="1" />
+				<Component Subtype="HeavyTurretComponent" Count="2" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="HeavyTurretComponent" Count="4" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
@@ -898,18 +888,19 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\KreegBioReactor.mwm</Model>
 			<Components>
-				<Component Subtype="GravityGenerator" Count="100" />
-				<Component Subtype="Computer" Count="1" />
-				<!-- 
-				<Component Subtype="SteelPlate" Count="1100" />
-				<Component Subtype="Construction" Count="3750" />
-				<Component Subtype="Computer" Count="180" />
-				<Component Subtype="SmallTube" Count="260" />
-				<Component Subtype="Motor" Count="180" />
-				<Component Subtype="LargeTube" Count="360" />
-				<Component Subtype="MetalGrid" Count="650" />
-				<Component Subtype="Construction" Count="3750" />
-				<Component Subtype="SteelPlate" Count="1000" />-->
+
+
+				<Component Subtype="SteelPlate" Count="150" />
+				<Component Subtype="Construction" Count="200" />
+				<Component Subtype="GravityGenerator" Count="500" />
+				<Component Count="4000" Subtype="Superconductor" />
+				<Component Subtype="Computer" Count="100" />
+				<Component Subtype="SmallTube" Count="200" />
+				<Component Subtype="Motor" Count="100" />
+				<Component Subtype="LargeTube" Count="200" />
+				<Component Subtype="MetalGrid" Count="300" />
+				<Component Subtype="Construction" Count="500" />
+				<Component Subtype="SteelPlate" Count="100" />
 
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
