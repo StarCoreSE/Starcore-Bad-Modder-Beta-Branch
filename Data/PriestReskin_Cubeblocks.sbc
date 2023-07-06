@@ -8,8 +8,8 @@
                 <TypeId>ConveyorSorter</TypeId>
                 <SubtypeId>PriestReskin_Block</SubtypeId>
             </Id>
-            <DisplayName>F-3 "Spartan" Heavy Repeater Reskin</DisplayName>
-            <Description>Reliable weapon with good tracking and wide range of movement. Fires Tungsten Rounds at incredible speed.</Description>
+            <DisplayName>F-2 "Shepherd" Rotary Rifle</DisplayName>
+            <Description>Spartan's favorite gun on his citadel. 2.25km Range Anti Missile Turret. Kinetic Damage, 2000m/s bullet speed.</Description>
 			<GuiVisible>true</GuiVisible>
             <Icon>Textures\GUI\Icons\TestScene.png</Icon>
             <CubeSize>Large</CubeSize>

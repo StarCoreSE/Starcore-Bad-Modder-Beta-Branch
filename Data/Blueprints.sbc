@@ -5,10 +5,10 @@
 	  <Blueprint>
 		  <Id>
 			  <TypeId>BlueprintDefinition</TypeId>
-			  <SubtypeId>AvalancheComponentBP</SubtypeId>
+			  <SubtypeId>HeavyTurretComponentBP</SubtypeId>
 		  </Id>
-		  <DisplayName>Avalanche Component</DisplayName>
-		  <Icon>Textures\GUI\Icons\Mk1Test.png</Icon>
+		  <DisplayName>Heavy Turret Component</DisplayName>
+		  <Icon>Textures\GUI\Icons\RailgunTurret_MainScene.png</Icon>
 		  <Prerequisites>
 			  <Item Amount="300" TypeId="Component" SubtypeId="SteelPlate" />
 			  <Item Amount="300" TypeId="Component" SubtypeId="Construction" />
@@ -19,17 +19,17 @@
 			  <Item Amount="15" TypeId="Component" SubtypeId="SmallTube" />
 
 		  </Prerequisites>
-		  <Result Amount="1" TypeId="Component" SubtypeId="AvalancheComponent" />
+		  <Result Amount="1" TypeId="Component" SubtypeId="HeavyTurretComponent" />
 		  <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
 	  </Blueprint>
 
 	  <Blueprint>
 		  <Id>
 			  <TypeId>BlueprintDefinition</TypeId>
-			  <SubtypeId>3x3TurretBaseComponentBP</SubtypeId>
+			  <SubtypeId>TurretBaseComponentBP</SubtypeId>
 		  </Id>
-		  <DisplayName>3x3TurretBaseComponent</DisplayName>
-		  <Icon>Textures\GUI\Icons\Mk1Test.png</Icon>
+		  <DisplayName>TurretBaseComponent</DisplayName>
+		  <Icon>Textures\GUI\Icons\TRR_LG_to_SG_Stator_7x7.dds</Icon>
 		  <Prerequisites>
 			  <Item Amount="300" TypeId="Component" SubtypeId="SteelPlate" />
 			  <Item Amount="300" TypeId="Component" SubtypeId="Construction" />
@@ -40,17 +40,17 @@
 			  <Item Amount="15" TypeId="Component" SubtypeId="SmallTube" />
 
 		  </Prerequisites>
-		  <Result Amount="1" TypeId="Component" SubtypeId="3x3TurretBaseComponent" />
+		  <Result Amount="1" TypeId="Component" SubtypeId="TurretBaseComponent" />
 		  <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
 	  </Blueprint>
     
  	  <Blueprint>
 		  <Id>
 			  <TypeId>BlueprintDefinition</TypeId>
-			  <SubtypeId>3x3TurretRotorComponentBP</SubtypeId>
+			  <SubtypeId>TurretRotorComponentBP</SubtypeId>
 		  </Id>
-		  <DisplayName>3x3TurretRotorComponent</DisplayName>
-		  <Icon>Textures\GUI\Icons\Mk1Test.png</Icon>
+		  <DisplayName>TurretRotorComponent</DisplayName>
+		  <Icon>Textures\GUI\Icons\TRR_5x5x1_TR_Rotor.dds</Icon>
 		  <Prerequisites>
 			  <Item Amount="300" TypeId="Component" SubtypeId="SteelPlate" />
 			  <Item Amount="300" TypeId="Component" SubtypeId="Construction" />
@@ -61,7 +61,7 @@
 			  <Item Amount="15" TypeId="Component" SubtypeId="SmallTube" />
 
 		  </Prerequisites>
-		  <Result Amount="1" TypeId="Component" SubtypeId="3x3TurretRotorComponent" />
+		  <Result Amount="1" TypeId="Component" SubtypeId="TurretRotorComponent" />
 		  <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
 	  </Blueprint>
     

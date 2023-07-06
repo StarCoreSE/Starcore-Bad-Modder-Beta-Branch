@@ -155,13 +155,13 @@
             <Model>Models\Mk1Test.mwm</Model>
             <Components>
 
-				<!--<Component Subtype="3x3TurretBaseComponent" Count="10" />
-				<Component Subtype="3x3TurretRotorComponent" Count="1" />
-				<Component Subtype="AvalancheComponent" Count="1" />
+				<Component Subtype="TurretBaseComponent" Count="10" />
+				<Component Subtype="TurretRotorComponent" Count="1" />
+				<Component Subtype="HeavyTurretComponent" Count="1" />
 				<Component Subtype="Computer" Count="1" />
-				<Component Subtype="AvalancheComponent" Count="4" />	-->			
-				
-				
+				<Component Subtype="HeavyTurretComponent" Count="4" />
+
+				<!--
 				<Component Count="1000" Subtype="SteelPlate"/>
 				<Component Count="150" Subtype="Construction"/>
 				<Component Count="40" Subtype="LargeTube" />
@@ -169,7 +169,7 @@
 				<Component Count="150" Subtype="Computer"/>
 				<Component Count="50" Subtype="MetalGrid" />
 				<Component Count="150" Subtype="Construction"/>
-				<Component Count="3000" Subtype="SteelPlate"/>
+				<Component Count="3000" Subtype="SteelPlate"/>-->
 			</Components>
             <CriticalComponent Index="0" Subtype="Computer"/>
 			<BlockPairName>MK1BattleshipGun_Block</BlockPairName>
@@ -211,21 +211,22 @@
 			<Model>Models\Mk2.mwm</Model>
 			<Components>
 
-				<!--<Component Subtype="3x3TurretBaseComponent" Count="1" />
-				<Component Subtype="3x3TurretRotorComponent" Count="1" />
-				<Component Subtype="AvalancheComponent" Count="10" />
+				<Component Subtype="TurretBaseComponent" Count="25" />
+				<Component Subtype="TurretRotorComponent" Count="1" />
+				<Component Subtype="HeavyTurretComponent" Count="4" />
 				<Component Subtype="Computer" Count="1" />
-				<Component Subtype="AvalancheComponent" Count="10" />-->
+				<Component Subtype="HeavyTurretComponent" Count="6" />
 
 
-				<Component Count="2000" Subtype="SteelPlate"/>
+				<!--<Component Count="2000" Subtype="SteelPlate"/>
 				<Component Count="5" Subtype="Construction"/>
+
 				<Component Count="5" Subtype="LargeTube" />
 				<Component Count="10" Subtype="Motor" />
 				<Component Count="25" Subtype="Computer"/>
 				<Component Count="10" Subtype="MetalGrid" />
 				<Component Count="50" Subtype="Construction"/>
-				<Component Count="3000" Subtype="SteelPlate"/>
+				<Component Count="3000" Subtype="SteelPlate"/>-->
 			</Components>
 			<CriticalComponent Index="0" Subtype="Computer"/>
 			<MountPoints>
@@ -272,6 +273,14 @@
             <ModelOffset x="0" y="0" z="0"/>
           <Model>Models\TorpReaper_Torp_Main_Scene.mwm</Model>
             <Components>
+
+				<Component Subtype="TurretBaseComponent" Count="32" />
+				<Component Subtype="TurretRotorComponent" Count="1" />
+				<Component Subtype="HeavyTurretComponent" Count="5" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="HeavyTurretComponent" Count="5" />
+
+				<!--
 				<Component Count="2200" Subtype="SteelPlate"/>
 				<Component Count="500" Subtype="Construction"/>
 				<Component Count="50" Subtype="LargeTube" />
@@ -280,7 +289,7 @@
                 <Component Count="500" Subtype="Computer"/>
                 <Component Count="100" Subtype="Motor"/>
 				<Component Count="500" Subtype="Construction"/>
-				<Component Count="3500" Subtype="SteelPlate"/>
+				<Component Count="3500" Subtype="SteelPlate"/>-->
             </Components>
             <CriticalComponent Index="0" Subtype="Computer"/>
             <BuildProgressModels>
