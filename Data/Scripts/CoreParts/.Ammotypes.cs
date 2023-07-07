@@ -378,7 +378,7 @@ namespace Scripts
                         Enable = true,
                         Length = 30f, //
                         Width = 0.25f, //
-                        Color = Color(red: 2f, green: 0.4f, blue: 0.3f, alpha: 0.1f), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Color = Color(red: 0.5f, green: 0.4f, blue: 0.4f, alpha: 1f), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 30, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
@@ -410,7 +410,7 @@ namespace Scripts
                         },
                         TextureMode = Normal,
                         DecayTime = 1, // In Ticks. 1 = 1 Additional Tracer generated per motion, 33 is 33 lines drawn per projectile. Keep this number low.
-                        Color = Color(red: 5, green: 2, blue: 2, alpha: 0.1f),
+                        Color = Color(red: 0.5f, green: 0.4f, blue: 0.4f, alpha: 1f),
                         Back = true,
                         CustomWidth = 0,
                         UseWidthVariance = false,
@@ -781,7 +781,7 @@ namespace Scripts
                         Enable = true,
                         Length = 30f, //
                         Width = 0.25f, //
-                        Color = Color(red: 2f, green: 0.4f, blue: 0.3f, alpha: 0.1f), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Color = Color(red: 0.5f, green: 0.4f, blue: 0.4f, alpha: 1f), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 30, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
@@ -813,7 +813,7 @@ namespace Scripts
                         },
                         TextureMode = Normal,
                         DecayTime = 1, // In Ticks. 1 = 1 Additional Tracer generated per motion, 33 is 33 lines drawn per projectile. Keep this number low.
-                        Color = Color(red: 5, green: 2, blue: 2, alpha: 0.1f),
+                        Color = Color(red: 0.3f, green: 0.4f, blue: 0.4f, alpha: 1f),
                         Back = false,
                         CustomWidth = 0,
                         UseWidthVariance = false,
