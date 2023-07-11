@@ -543,7 +543,7 @@
 		  <Category>SHOT</Category>
 		  <MaxDistance>10000</MaxDistance>
 
-		  <Volume>4</Volume>
+		  <Volume>3</Volume>
 		  <PitchVariation>140</PitchVariation>
 		  <Waves>
 			  <Wave Type="D3">
@@ -719,7 +719,7 @@
 		  </Id>
 		  <Category>SHOT</Category>
 		  <MaxDistance>10000</MaxDistance>
-		  <Volume>2</Volume>
+		  <Volume>3</Volume>
 
 
 		  <Waves>
@@ -880,7 +880,7 @@
 		  <DistantSounds>
 			  <DistantSound DistanceCrossfade = "20" Distance = "500" Sound = "RepeaterCannonShotDistant" />
 		  </DistantSounds>
-		  <Volume>1.5</Volume>
+		  <Volume>1.15</Volume>
 		  <PitchVariation>120</PitchVariation>
 		  <Waves>
 			  <Wave Type="D3">
@@ -898,7 +898,7 @@
 		  </Id>
 		  <Category>SHOT</Category>
 		  <MaxDistance>3000</MaxDistance>
-		  <Volume>0.8</Volume>
+		  <Volume>0.7</Volume>
 		  <PitchVariation>120</PitchVariation>
 		  <Waves>
 			  <Wave Type="D3">
