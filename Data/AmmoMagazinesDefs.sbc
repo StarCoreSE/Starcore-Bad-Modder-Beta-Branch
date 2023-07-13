@@ -277,7 +277,8 @@
 				<SubtypeId>JDD_EnergyCharge_MagazineLarge</SubtypeId>
 			</Id>
 			<DisplayName>JDD - Universial Energy Charge Large</DisplayName>
-			<Icon>Textures\GUI\Icons\EnergyCharge_Icon.dds</Icon>
+			<Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+			<!-- <Icon>Textures\GUI\Icons\EnergyCharge_Icon.dds</Icon>-->
 			<Size>
 				<X>0.2</X>
 				<Y>0.2</Y>
@@ -339,7 +340,8 @@
 				<SubtypeId>KreegMagnetarAmmoMag</SubtypeId>
 			</Id>
 			<DisplayName>ManetarMag</DisplayName>
-			<Icon>Textures\GUI\Icons\ammo\EnergyCharge_Icon.dds</Icon>
+			<Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+			<!-- <Icon>Textures\GUI\Icons\EnergyCharge_Icon.dds</Icon>-->
 			<Size>
 				<X>1</X>
 				<Y>0.6</Y>
